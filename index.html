@@ -7,5 +7,44 @@
 </head>
 <body>
     <h1>Setup and Configuration</h1>
+    <ul>
+        <li>git init: Initializes a new local Git repository in the current directory.</li>
+        <li>git clone [url]: Creates a working copy of a remote repository.</li>
+        <li>git config: Sets configuration options for your Git installation, 
+        such as your username and email.</li>
+    </ul>
+    <h1>Basic Snapshotting (Staging and Committing)</h1>
+    <ul>
+        <li>git status: Displays the state of the working directory and the staging area (which files are untracked, modified, or
+        staged).</li>
+        <li>git add <file>: Stages changes in a specific file for the next commit.</li>
+        <li>git add . or git add -A: Stages all new and modified files in the current directory.</li>
+        <li>git commit -m "[message]": Records the staged snapshot permanently into the project history with a descriptive
+        message.</li>
+        <li>git diff: Shows the differences between unstaged changes in your working directory and the last commit.</li>
+    </ul>
+    <h1>Branching and Merging</h1>
+    
+       <ul>
+        <li>git branch: Lists all local branches in the repository.</li>
+        <li>git branch <branch-name>: Creates a new local branch.</li>
+        <li>git checkout <branch-name>: Switches to a specific branch or commit (can also use git switch in newer Git versions).</li>
+        <li>git checkout -b <branch-name>: Creates a new branch and switches to it simultaneously.</li>
+        <li>git merge <branch-name>: Combines changes from the specified branch into the currently active branch.</li>
+        <li>git rebase: Rewrites commit history by moving a sequence of commits to a new base commit.</li>
+    </ul>
+    <h1>Sharing and Updating Projects (Remote Operations)</h1>
+    
+        
+
+            
+    <ul>
+        <li>git remote add <name> <url>: Connects your local repository to a remote server.</li>
+        <li></li>
+        <li>git fetch: Downloads branches and their commits from the remote repository but does not integrate them into your
+        local working branches.</li>
+        <li>git pull: Fetches changes from a remote branch and immediately merges them into your current branch.</li>
+        <li>git push <remote> <branch>: Uploads your local commits to the remote repository.</li>
+    </ul>
 </body>
 </html>
